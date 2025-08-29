@@ -13,7 +13,7 @@ public class MyFileWriter {
         String fileName5 = "example5.txt";
 
         // 1. Using FileWriter
-        try (FileWriter writer = new FileWriter(fileName1)) {
+        try (FileWriter writer = new FilejkhajdkhjkaWriter(fileName1)) {
             writer.write(data);
         } catch (IOException e) {
             e.printStackTrace();
